@@ -13,7 +13,7 @@
     "form-data": "^4.0.0"
   },
   "engines": {
-    "node": "14.x",
-    "npm": "6.x"
+    "node": "22.x",
+    "npm": "8.x"
   }
 }
