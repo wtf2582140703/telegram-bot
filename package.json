@@ -13,7 +13,7 @@
     "form-data": "^4.0.0"
   },
   "engines": {
-    "node": "14.x",
-    "npm": "6.x"
+    "node": "14.x",    // 指定 Node.js 版本
+    "npm": "6.x"       // 如果使用 npm 6.x
   }
 }
