@@ -1,4 +1,5 @@
 
+
 const express = require('express');
 const fetch = require('node-fetch');
 const multer = require('multer');
@@ -10,7 +11,7 @@ const app = express();
 // 设置文件上传存储
 const upload = multer({ dest: 'uploads/' });
 
-const botToken = '7595239940:AAHPbsRXULKhxNIxcd1k4AtDSCsgImXvn34;  // 替换为你从 BotFather 获得的 token
+const botToken = '7595239940:AAHPbsRXULKhxNIxcd1k4AtDSCsgImXvn34';  // 替换为你从 BotFather 获得的 token
 const chatId = '-1002644840253';      // 替换为你的 Telegram 聊天 ID
 const telegramAPI = `https://api.telegram.org/bot${botToken}/`;
 
